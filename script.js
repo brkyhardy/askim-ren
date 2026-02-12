@@ -7,7 +7,7 @@ function validateConfig() {
 
     // Check required fields
     if (!config.Ren) {
-        warnings.push("Valentine's name is not set! Using default.");
+        warnings.push("Ren.");
         config.Ren = "Aşkım";
     }
 
