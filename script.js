@@ -6,9 +6,9 @@ function validateConfig() {
     const warnings = [];
 
     // Check required fields
-    if (!config.valentineName) {
+    if (!config.Ren) {
         warnings.push("Valentine's name is not set! Using default.");
-        config.valentineName = "My Love";
+        config.Ren = "Aşkım";
     }
 
     // Validate colors
